@@ -1,8 +1,13 @@
+'''
+Name: Jayden Ly
+Lab Time: 2/29/24 2:14 PM
+'''
 def food_input():
     user_input = input()
     tokens = user_input.split()
-    #type you while  loop here
-
+    while (user_input != "quit 0"):
+        print('Eating ' + tokens[1] + ' ' + tokens[0] +' a day keeps you happy and healthy.')
+        
     
 
 if __name__ == "__main__":
