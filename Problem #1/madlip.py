@@ -1,5 +1,6 @@
 '''
 Name: Jayden Ly
+s
 Lab Time: 2/29/24 2:14 PM
 '''
 def food_input():

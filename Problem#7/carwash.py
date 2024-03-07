@@ -1,13 +1,7 @@
 '''
 Name: Jayden Ly
-Lab Time: 3/7/24 12:50 PM
-the output is:
 
-    ZyCar Wash
-    Base car wash - $10
-    Rain repellent - $2
------
-    Total price: $12
+Lab Time: 3/7/24 12:50 PM
 '''
 def calculate_car_wash_price(service_choice1, service_choice2):
     services = {'Air freshener': 1, 'Rain repellent': 2, 'Tire shine': 2, 'Wax': 3, 'Vacuum': 5, '-': 0}

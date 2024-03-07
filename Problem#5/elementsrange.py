@@ -1,5 +1,6 @@
 '''
 Name: Jayden Ly
+
 Lab Time: 2/29/24 5:30 PM
 '''
 def filter_and_print_range(integer_list, min_val, max_val):

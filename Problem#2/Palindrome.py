@@ -1,5 +1,6 @@
 '''
 Name: Jayden Ly
+s
 Lab Time: 2/29/24 2:32 PM
 '''
 def check_palindrome(user_input):
