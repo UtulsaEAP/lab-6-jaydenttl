@@ -4,8 +4,8 @@ Lab Time: 3/7/24 1:01 PM
 '''
 def in_order(nums):
     # Type your code here.
-    for _ in range(len(nums) -1):          #for index in the range 4
-        if nums[_] >nums[_ +1]:           # if 0>1    1>2 etc.
+    for n in range(len(nums) -1):          #for index in the range 4
+        if nums[n] >nums[n +1]:           # if 0>1    1>2 etc.
             return False                    #false
     else:
         return True

@@ -1,16 +1,6 @@
 '''
 Name: Jayden Ly
 Lab Time: 2/29/24 5:30 PM
-def process_and_print(input_string):
-    # Split into separate strings
-  all_num = input_string.split()
-    # Convert strings to integers and filter out negative values
-  int_num = list(map(int, all_num))
-  neg_num = list(filter(lambda n: n < 0,int_num))
-    # Sort integers in reverse order
-  neg_num.sort(reverse=True)
-    # Print sorted integers
-  print(' '.join(map(str, neg_num))) 
 '''
 def filter_and_print_range(integer_list, min_val, max_val):
     #write your code here
