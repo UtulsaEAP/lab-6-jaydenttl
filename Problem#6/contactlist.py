@@ -16,8 +16,11 @@ def process_user_contacts(user_input):
         user_contacts[name] = phone_number      #dictionary returns phone if u do this
     # Get contact name from input, output contact's phone number
     contact_name = input("Enter the contact name: ")
+    if contact_name in user_contacts:
+        print(user_contacts[contact_name])          #FIYTB!!!
+    else:
+        print("Contact not found.")
     
-    print(user_contacts[contact_name])          #FIYTB!!!
 
     
    

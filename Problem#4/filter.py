@@ -12,7 +12,8 @@ def process_and_print(input_string):
     # Sort integers in reverse order
   neg_num.sort(reverse=True)
     # Print sorted integers
-  print(' '.join(map(str, neg_num))) 
+  for value in neg_num:
+    print(value, end=' ')         #PROPER PRINT LIST 
     
 
 if __name__ == "__main__":

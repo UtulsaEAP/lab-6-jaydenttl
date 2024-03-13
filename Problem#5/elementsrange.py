@@ -6,7 +6,11 @@ Lab Time: 2/29/24 5:30 PM
 def filter_and_print_range(integer_list, min_val, max_val):
     #write your code here
 
+    for _ in integer_list:
+        if min_val <= _ <= max_val:
+            print(_, end=',')
 
+    '''
     filtered_list = list(filter(lambda n: min_val <= n <= max_val, integer_list))
     restr_list = list(map(str, filtered_list))
     comma_list = []
@@ -16,7 +20,7 @@ def filter_and_print_range(integer_list, min_val, max_val):
     list_w_comma = [restr_list+comma_list for restr_list, comma_list in zip(restr_list, comma_list)]
     print(''.join(map(str,list_w_comma)))
     
-
+    '''
 
 if __name__ == "__main__":
     # Get input for the list of integers

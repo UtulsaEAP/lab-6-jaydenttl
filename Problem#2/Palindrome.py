@@ -7,14 +7,12 @@ def check_palindrome(user_input):
     checker = user_input
     reverse_input = checker[::-1]
     if reverse_input == checker:
-        return
+        print('palindrome: ' + user_input)
+        
     else:
-        return False
+        print('not a palindrome: ' + user_input)
+        
 
 if __name__ == "__main__":
     user_input = input()
-
-    if check_palindrome(user_input) == True:
-        print('palindrome: ' + user_input)
-    elif check_palindrome(user_input) == False:
-        print('not a palindrome: ' + user_input)
+    check_palindrome(user_input)

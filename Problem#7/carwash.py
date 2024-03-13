@@ -17,6 +17,8 @@ def calculate_car_wash_price(service_choice1, service_choice2):
         print(service_choice1 +' - $'+ str(services[service_choice1]))
     if service_choice2 != '-':
         print(service_choice2 +' - $'+ str(services[service_choice2]))
+    print('-----')
+    print('Total price: $'+ str(total))
 
     
 if __name__ == '__main__':
